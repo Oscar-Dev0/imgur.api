@@ -1,5 +1,5 @@
 export interface OptionsImgur {
-    clientSecret: string,
+    clientSecret?: string,
     clientID: string,
     version?: number
 }
