@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+
+        /* Compliter */
+        "module": "CommonJS",
+        "target": "ES2020",
+        "strict": true,
+        "lib": [
+            "ESNext",
+            "WebWorker"
+        ],
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "declaration": false,
+        "outDir": "app",
+        "rootDir": "src",
+
+        /* Typing */
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "resolveJsonModule": true,
+        "noFallthroughCasesInSwitch": true,
+        "skipLibCheck": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "strictPropertyInitialization": false
+    },
+    "exclude": [
+        "node_modules",
+        "app/**",
+        "package.json",
+        "typescript/**"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ],
+}
